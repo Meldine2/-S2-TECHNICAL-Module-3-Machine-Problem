@@ -1,0 +1,90 @@
+body {
+    display: flex;
+}
+
+.container {
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    width: 150px;
+    margin: 20px;
+}
+
+button:hover {
+    padding: 20px;
+    width: 170px;
+    transition: 0.5s;
+}
+
+.square {
+    height: 1px;
+    width: 1px;
+    padding: 10%;
+    margin-right: 20%;
+    margin-top: 5%;
+    border: 3px solid #ffffff;
+    position: absolute;
+    z-index: -1;
+    transform: translateY(-150%);
+}
+
+.square.falling {
+    transform: translateY(0);
+    background-color: #ffffff;
+}
+
+#monsq {
+    background-color: #bb05f3;
+    border: 10px solid #bb05f3;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
+
+#tuessq{
+    background-color: #ffa1d5;
+    border: 10px solid #ffa1d5;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
+
+#wedsq{
+    background-color: #2600ff;
+    border: 10px solid #2600ff;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
+
+#thurssq{
+    background-color: #00ff00;
+    border: 10px solid #00ff00;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
+
+#frisq{
+    background-color: #fffb00;
+    border: 10px solid #fffb00;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
+
+#satsq{
+    background-color: #ff7300;
+    border: 10px solid #ff7300;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
+
+#sunsq{
+    background-color: #ff0000;
+    border: 10px solid #ff0000;
+    left: 50%;
+    transition: transform 2.5s ease-out, background-color 3s ease-out;
+}
